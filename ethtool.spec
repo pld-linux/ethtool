@@ -1,7 +1,7 @@
 Summary:	Utility to control ethernet cards
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
 Name:		ethtool
-Version:	1.2
+Version:	1.3
 Release:	1
 License:	GPL
 Group:		Networking/Admin
