@@ -3,12 +3,12 @@ Summary(es):	Grupos de herramientas Ethernet
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
 Summary(pt_BR):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	2
-Release:	2
+Version:	3
+Release:	0.1
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
-# Source0-md5:	b169ab16a9f011ff4b2f8aab81226ad3
+# Source0-md5:	b4e71f7fa2629250677eefcb338442c5
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
