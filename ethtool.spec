@@ -7,8 +7,6 @@ Version:	1.4
 Release:	1
 License:	GPL
 Group:		Networking/Admin
-Group(de):	Netzwerkwesen/Administration
-Group(pl):	Sieciowe/Administracyjne
 Source0:	http://prdownloads.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
 BuildRequires:	automake
 BuildRequires:	autoconf
