@@ -1,5 +1,4 @@
 Summary:	Utility to control ethernet cards
-Summary(es):	Grupos de herramientas Ethernet para tarjetas SPARC HME
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
 Summary(pt_BR):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
@@ -17,9 +16,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ethtool is a small utility for examining and tuning your
 ethernet-based network interface.
 
-%description -l es
-Grupos de herramientas Ethernet para tarjetas SPARC HME
-
 %description -l pl
 ethtool to niewielkie narzêdzie do kontroli i tuningu sieciowych kart
 ethernet.
@@ -33,15 +29,13 @@ PCI.
 %setup -q
 
 %build
-rm -f missing
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
 %{__automake}
 %configure
 
-install -d $RPM_BUILD_ROOT
-%{__make} RPMSRCS=$RPM_BUILD_ROOT
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
