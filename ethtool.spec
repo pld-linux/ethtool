@@ -3,7 +3,7 @@ Summary(es):	Grupos de herramientas Ethernet para tarjetas SPARC HME
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
 Summary(pt_BR):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	1.5
+Version:	1.6
 Release:	1
 License:	GPL
 Group:		Networking/Admin
@@ -48,13 +48,11 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf AUTH* Chan* NEWS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTH* Chan* NEWS
 %attr(755,root,root) %{_sbindir}/*
 %{_mandir}/man?/*
