@@ -3,12 +3,12 @@ Summary(es):	Grupos de herramientas Ethernet para tarjetas SPARC HME
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
 Summary(pt_BR):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	1.7
+Version:	1.8
 Release:	1
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
-# Source0-md5:	88df4f73643c2e1b450674f7a5f3f970
+# Source0-md5:	03236fc7329152f69b2d542b0825e3b4
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
