@@ -36,7 +36,7 @@ rm -f missing
 aclocal
 autoconf
 autoheader
-automake -a -c
+automake -a -c -f
 %configure
 
 install -d $RPM_BUILD_ROOT
