@@ -1,7 +1,7 @@
 Summary:	Utility to control ethernet cards
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
 Name:		ethtool
-Version:	1.3
+Version:	1.4
 Release:	1
 License:	GPL
 Group:		Networking/Admin
@@ -27,10 +27,12 @@ ethernet.
 rm missing
 aclocal
 autoconf
+autoheader
 automake -a -c
 %configure
 
-%{__make}
+install -d $RPM_BUILD_ROOT
+%{__make} RPMSRCS=$RPM_BUILD_ROOT
 
 %install
 rm -rf $RPM_BUILD_ROOT
