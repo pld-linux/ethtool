@@ -7,9 +7,9 @@ Version:	1.7
 Release:	1
 License:	GPL
 Group:		Networking/Admin
-Source0:	http://prdownloads.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
-BuildRequires:	automake
+Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
