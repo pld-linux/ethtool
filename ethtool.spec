@@ -1,5 +1,7 @@
 Summary:	Utility to control ethernet cards
+Summary(es):	Grupos de herramientas Ethernet para tarjetas SPARC HME
 Summary(pl):	Narzêdzie do kontrolowania kart ethernet
+Summary(pt_BR):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
 Version:	1.4
 Release:	1
@@ -16,15 +18,23 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ethtool is a small utility for examining and tuning your
 ethernet-based network interface.
 
+%description -l es
+Grupos de herramientas Ethernet para tarjetas SPARC HME
+
 %description -l pl
 ethtool to niewielkie narzêdzie do kontroli i tuningu sieciowych kart
 ethernet.
+
+%description -l pt_BR
+Este utilitário permite consulta e alteração da configuração de placas
+ethernet, como velocidade, porta, negociação automática e localização
+PCI.
 
 %prep
 %setup -q
 
 %build
-rm missing
+rm -f missing
 aclocal
 autoconf
 autoheader
