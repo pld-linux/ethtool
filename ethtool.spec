@@ -34,9 +34,9 @@ PCI.
 %build
 rm -f missing
 aclocal
-autoconf
+%{__autoconf}
 autoheader
-automake -a -c -f
+%{__automake}
 %configure
 
 install -d $RPM_BUILD_ROOT
