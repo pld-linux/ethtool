@@ -9,6 +9,7 @@ License:	GPL
 Group:		Networking/Admin
 Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
 # Source0-md5:	b4e71f7fa2629250677eefcb338442c5
+URL:		http://sourceforge.net/projects/gkernel/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
