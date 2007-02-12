@@ -1,7 +1,7 @@
 Summary:	Utility to control ethernet cards
-Summary(es):	Grupos de herramientas Ethernet
-Summary(pl):	Narzêdzie do kontrolowania kart ethernet
-Summary(pt_BR):	Ferramenta de configuração para placas ethernet PCI
+Summary(es.UTF-8):   Grupos de herramientas Ethernet
+Summary(pl.UTF-8):   NarzÄ™dzie do kontrolowania kart ethernet
+Summary(pt_BR.UTF-8):   Ferramenta de configuraÃ§Ã£o para placas ethernet PCI
 Name:		ethtool
 Version:	5
 Release:	1
@@ -18,16 +18,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ethtool is a small utility for examining and tuning your
 ethernet-based network interface.
 
-%description -l es
+%description -l es.UTF-8
 Grupos de herramientas Ethernet.
 
-%description -l pl
-ethtool to niewielkie narzêdzie do kontroli i tuningu sieciowych kart
+%description -l pl.UTF-8
+ethtool to niewielkie narzÄ™dzie do kontroli i tuningu sieciowych kart
 ethernet.
 
-%description -l pt_BR
-Este utilitário permite consulta e alteração da configuração de placas
-ethernet, como velocidade, porta, negociação automática e localização
+%description -l pt_BR.UTF-8
+Este utilitÃ¡rio permite consulta e alteraÃ§Ã£o da configuraÃ§Ã£o de placas
+ethernet, como velocidade, porta, negociaÃ§Ã£o automÃ¡tica e localizaÃ§Ã£o
 PCI.
 
 %prep
