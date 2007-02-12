@@ -1,7 +1,7 @@
 Summary:	Utility to control ethernet cards
-Summary(es.UTF-8):   Grupos de herramientas Ethernet
-Summary(pl.UTF-8):   Narzędzie do kontrolowania kart ethernet
-Summary(pt_BR.UTF-8):   Ferramenta de configuração para placas ethernet PCI
+Summary(es.UTF-8):	Grupos de herramientas Ethernet
+Summary(pl.UTF-8):	Narzędzie do kontrolowania kart ethernet
+Summary(pt_BR.UTF-8):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
 Version:	5
 Release:	1
