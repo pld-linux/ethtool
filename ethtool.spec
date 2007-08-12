@@ -3,12 +3,12 @@ Summary(es.UTF-8):	Grupos de herramientas Ethernet
 Summary(pl.UTF-8):	Narzędzie do kontrolowania kart ethernet
 Summary(pt_BR.UTF-8):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	5
+Version:	6
 Release:	1
 License:	GPL
 Group:		Networking/Admin
 Source0:	http://dl.sourceforge.net/gkernel/%{name}-%{version}.tar.gz
-# Source0-md5:	5df7f165974e096e2de890e099f87a12
+# Source0-md5:	3b721ec27f17ebf320ba8c505cf66d9c
 URL:		http://sourceforge.net/projects/gkernel/
 BuildRequires:	autoconf
 BuildRequires:	automake
