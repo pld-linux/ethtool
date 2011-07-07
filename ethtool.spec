@@ -10,7 +10,7 @@ License:	GPL v2
 Group:		Networking/Admin
 Source0:	http://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.tar.bz2
 # Source0-md5:	97211a1e3a496bc3bd0b75849d0fbae9
-URL:		http://sourceforge.net/projects/gkernel/
+URL:		http://www.kernel.org/pub/software/network/ethtool/
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
