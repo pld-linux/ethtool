@@ -3,13 +3,13 @@ Summary(es.UTF-8):	Grupos de herramientas Ethernet
 Summary(pl.UTF-8):	Narzędzie do kontrolowania kart ethernet
 Summary(pt_BR.UTF-8):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	3.1
+Version:	3.2
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		Networking/Admin
 Source0:	https://ftp.kernel.org/pub/software/network/ethtool/%{name}-%{version}.tar.xz
-# Source0-md5:	dd0a93a70784fdeb2c3e699b3c709e8a
+# Source0-md5:	4ed4a9dfd2039aa416176a9c06497b00
 URL:		https://ftp.kernel.org/pub/software/network/ethtool/
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
