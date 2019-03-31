@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Narzędzie do kontrolowania kart ethernet
 Summary(pt_BR.UTF-8):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
 Version:	5.0
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL v2
 Group:		Networking/Admin
