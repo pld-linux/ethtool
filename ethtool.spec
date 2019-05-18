@@ -35,6 +35,19 @@ Este utilitário permite consulta e alteração da configuração de placas
 ethernet, como velocidade, porta, negociação automática e localização
 PCI.
 
+%package -n bash-completion-%{name}
+Summary:	Bash completion for ethtool command
+Summary(pl.UTF-8):	Bashowe dopełnianie parametrów polecenia ethtool
+Group:		Applications/Shells
+Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	bash-completion >= 2.0
+
+%description -n bash-completion-%{name}
+Bash completion for ethtool command.
+
+%description -n bash-completion-%{name} -l pl.UTF-8
+Bashowe dopełnianie parametrów polecenia ethtool.
+
 %prep
 %setup -q
 
@@ -61,3 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog LICENSE NEWS README
 %attr(755,root,root) %{_sbindir}/ethtool
 %{_mandir}/man8/ethtool.8*
+
+%files -n bash-completion-%{name}
+%defattr(644,root,root,755)
+%{bash_compdir}/%{name}
