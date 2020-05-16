@@ -1,0 +1,11 @@
+--- ethtool-5.6/netlink/settings.c.orig	2020-03-13 20:10:51.000000000 +0100
++++ ethtool-5.6/netlink/settings.c	2020-05-16 07:50:02.098853940 +0200
+@@ -375,7 +375,7 @@
+ after:
+ 	if (first && if_none)
+ 		printf("%s", if_none);
+-	printf(after);
++	fputs(after, stdout);
+ 
+ 	return 0;
+ err:
