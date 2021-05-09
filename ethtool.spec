@@ -3,18 +3,19 @@ Summary(es.UTF-8):	Grupos de herramientas Ethernet
 Summary(pl.UTF-8):	Narzędzie do kontrolowania kart ethernet
 Summary(pt_BR.UTF-8):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	5.10
+Version:	5.12
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		Networking/Admin
 Source0:	https://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.tar.xz
-# Source0-md5:	3737d66105ab8d5b6552d98a510b4010
+# Source0-md5:	11fcf0d0287c899fbcbdb48897fe2bab
 URL:		https://www.kernel.org/pub/software/network/ethtool/
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRequires:	libmnl-devel
 BuildRequires:	pkgconfig
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -43,6 +44,7 @@ Summary(pl.UTF-8):	Bashowe dopełnianie parametrów polecenia ethtool
 Group:		Applications/Shells
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 Requires:	bash-completion >= 2.0
+BuildArch:	noarch
 
 %description -n bash-completion-%{name}
 Bash completion for ethtool command.
