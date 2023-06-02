@@ -43,7 +43,7 @@ Summary:	Bash completion for ethtool command
 Summary(pl.UTF-8):	Bashowe dopełnianie parametrów polecenia ethtool
 Group:		Applications/Shells
 Requires:	%{name} = %{epoch}:%{version}-%{release}
-Requires:	bash-completion >= 2.0
+Requires:	bash-completion >= 1:2.0
 BuildArch:	noarch
 
 %description -n bash-completion-%{name}
