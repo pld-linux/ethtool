@@ -3,13 +3,13 @@ Summary(es.UTF-8):	Grupos de herramientas Ethernet
 Summary(pl.UTF-8):	Narzędzie do kontrolowania kart ethernet
 Summary(pt_BR.UTF-8):	Ferramenta de configuração para placas ethernet PCI
 Name:		ethtool
-Version:	6.11
+Version:	6.14
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		Networking/Admin
 Source0:	https://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.tar.xz
-# Source0-md5:	0b901e0e7522082ccec13126c5ba3651
+# Source0-md5:	38d63874cb98dc766f9e22d932601b23
 URL:		https://www.kernel.org/pub/software/network/ethtool/
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
@@ -79,6 +79,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog LICENSE NEWS README
 %attr(755,root,root) %{_sbindir}/ethtool
 %{_mandir}/man8/ethtool.8*
+%{_datadir}/metainfo/org.kernel.software.network.ethtool.metainfo.xml
 
 %files -n bash-completion-%{name}
 %defattr(644,root,root,755)
